@@ -10,6 +10,6 @@
         $username = "Aile";
         $age = 20;
     ?>
-    <a href="result.php">Teisele lehele</a>
+    <a href="<?php echo "result.php".'?username='.$username . '&age='.$age?>">Teisele lehele</a>
   </body>
 </html>
