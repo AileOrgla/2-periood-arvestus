@@ -25,7 +25,7 @@ if ($arvestus = "arvestus") {
 
   <body>
     <!-- Kustuta see funktsioon (print_r() koos <pre> elemendiga) pärast seda, kui oled veendunud, et programm töötab. -->
-    <pre><?php print_r($_COOKIE); ?></pre>
+
 
   </body>
 </html>
